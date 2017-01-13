@@ -6,10 +6,10 @@ define([
     "mock"
 ], function (angular, forgotten, mock){
 
-    describe("Controller: ForgottenPasswordCtrl", function () {
+    describe("Controller: ForgottenCtrl", function () {
 
         // load the controller"s module
-        var ForgottenPasswordCtrl,
+        var ForgottenCtrl,
         scope;
 
         // Initialize the controller and a mock scope
@@ -18,7 +18,7 @@ define([
             angular.mock.module("yo-angularifyApp");
             angular.mock.inject(function ($controller, $rootScope) {
                 scope = $rootScope.$new();
-                ForgottenPasswordCtrl = $controller("ForgottenPasswordCtrl", {
+                ForgottenCtrl = $controller("ForgottenCtrl", {
                   $scope: scope
                 });
               });
